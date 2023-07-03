@@ -1,4 +1,5 @@
 ![Logo](https://cdn.discordapp.com/attachments/806974540139200623/1125457812173094912/image-removebg-preview1.png)
+<br/>
 EnvWarn is a one-stop solution to all your climate action needs which predicts earthquakes, and flood events, and provides news summary, fundraising, and upcoming events alerts on natural disasters.
 
 ## Table of Contents
@@ -21,14 +22,17 @@ EnvWarn is a one-stop solution to all your climate action needs which predicts e
 ## Background
 **Earthquakes:** 
 India is located in a seismically active zone, with several tectonic plates converging in the region. As a result, the country experiences a significant number of earthquakes. On average, India witnesses around 5000 earthquakes annually, ranging from minor tremors to more significant seismic events. The most seismically active regions in India include the Himalayan belt, the northeastern states, and parts of Gujarat and Maharashtra. Here are few earthquake prone zones of India:
+<br/>
 ![Earthquake-zones](https://media.discordapp.net/attachments/806974540139200623/1125455506245431346/image.png)
 
 **Floods:** 
 Floods are a recurrent natural disaster in India, affecting various regions due to heavy monsoon rains, cyclones, or dam failures. The country's vast river systems, such as the Ganges, Brahmaputra, and their tributaries, make it particularly vulnerable. Annually, India witnesses numerous floods, impacting millions of people and causing extensive damage to infrastructure, agriculture, and livelihoods. Here are few flood prone areas in India:
+<br/>
 ![Flood-prone-areas](https://media.discordapp.net/attachments/806974540139200623/1125456054143176814/image.png)
 
 **Hurricanes:** 
 India's coastal areas, particularly along the Bay of Bengal and the Arabian Sea, are prone to cyclones or hurricanes. The cyclone season typically lasts from April to December, with the most intense activity occurring between October and December. Cyclones like Cyclone Biparjoy(2023), Cyclone Fani (2019) and Cyclone Amphan (2020) have caused significant devastation in recent years, affecting states like Odisha, West Bengal, Tamil Nadu, and Andhra Pradesh. Here are few Hurricane prone zones in India:
+<br/>
 ![Hurrican-zones](https://media.discordapp.net/attachments/806974540139200623/1125456803203928215/image.png)
 
 ## Technologies used
@@ -101,7 +105,10 @@ The random forest classifier is used in flood prediction due to its ability to h
 Ensemble learning is used in flood prediction to improve the accuracy and robustness of predictions by combining multiple models. It leverages the diversity of different algorithms or variations of the same algorithm to capture a wider range of patterns, reduce bias, and enhance the overall predictive performance for complex flood prediction tasks.
 
 After comparing all of them, the accuracies were as follows:
+<br/>
+
 ![Comparison](https://media.discordapp.net/attachments/806974540139200623/1125470919540871238/image.png)
+
 ## The Earthquake Prediction Model
 **Dataset**
 The National Earthquake Information Center (NEIC) determines the location and size of all significant earthquakes that occur worldwide and disseminates this information immediately to national and international agencies, scientists, critical facilities, and the general public. The NEIC compiles and provides to scientists and to the public an extensive seismic database that serves as a foundation for scientific research through the operation of modern digital national and global seismograph networks and cooperative international agreements. The NEIC is the national data center and archive for earthquake information.
@@ -117,6 +124,8 @@ The decision tree classifier is used in earthquake prediction due to its ability
 The random forest classifier is used in earthquake prediction due to its ability to handle high-dimensional and complex data, capture non-linear relationships, and reduce the risk of overfitting. By combining multiple decision trees and aggregating their predictions, the random forest classifier provides improved accuracy and robustness in predicting earthquake events based on various seismic features such as magnitude, depth, and location.
 
 After comparing all of them, the accuracies were as follows:
+<br/>
+
 ![Comparison](https://cdn.discordapp.com/attachments/806974540139200623/1125481170411470858/image.png)
 ## The Hurricane Prediction Model
 **Dataset**
@@ -134,10 +143,14 @@ The Gaussian Naive Bayes classifier is used in hurricane prediction due to its s
 The Support Vector Machine (SVM) is used in hurricane prediction due to its ability to handle high-dimensional data, capture complex relationships between meteorological features, and provide good generalization performance. It can effectively classify hurricane occurrences based on patterns in the data, making it a valuable tool for predicting hurricanes based on variables such as wind speed, pressure, and temperature.
 
 After comparing all of them, the accuracies were as follows:
+<br/>
+
 ![Comparison](https://media.discordapp.net/attachments/806974540139200623/1125509811895795722/image.png)
 
 ## The Backend
 The backend of this project was created using Flask, a Python web framework. After setting up a virtual environment, Flask was installed, and the project structure was organized with directories for application code, static files, and templates.
+<br/>
+
 ![Directory Structure](https://media.discordapp.net/attachments/806974540139200623/1125490635579867146/image.png)
 ## The Frontend
 The frontend of this project was built with HTML(Hypertext Markup Language) and CSS(Cascading Style Sheets).
