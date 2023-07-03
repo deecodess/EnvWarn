@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flood Prediction</title>
+    <meta charset="UTF-8">
+        
+        <!-- bootstrap css cdn -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+        <!-- css stylesheet -->
+        <link rel="stylesheet" href="static/css/style.css">
+        <link rel="stylesheet" href="static/css/flood.css">
+
+        <!-- font styles cdn -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+    <div class="container-fluid" >
+        <div style ="height: 60px; text-align: center;"class="container-fluid" >
+            <div  style ="text-align: center; "class="row donate-sponsor">
+              <br/>
+              <a  style ="margin-left:100px;"class="button" id="donate" href="{{url_for('home')}}">Home</a>
+              <a  style ="margin-left:70px;"class="button" id="donate" href="{{url_for('earth')}}">EarthQuake Prediction</a>
+              <a  style ="margin-left:70px"class="button " id="sponsor" href="{{url_for('cyclone')}}">Hurricane Prediction</a>
+              <a  style ="margin-left:70px;color:#C00C0C;text-decoration:underline;"class="button " id="sponsor" href="{{url_for('flood')}}">Flood Prediction</a>
+              <a  style ="margin-left:120px"class="button" id="sponsor" href="{{url_for('fs')}}">Safety tips</a> 
+            </div>
+          </div>
+  </nav>
+
+  <div class="main">
+       <h2 class="text mt-2" style="padding-top:4%;padding-left:4%; font-size:50px;color:black;">Flood Prediction</h2>
+
+       <h4 style="padding-left:4%;padding-bottom:1%">Let's make this world a safer place!</h4>
+
+       <div class="main-content" style=" width:100%;height:50%; text-align:center"> 
+          <form action="{{url_for('flo')}}" method="post">
+            <h5 style="width:43%;">Enter the Parameters:</h5>
+
+            <input style="width:35%;" type="number" step="0.1"  name="temperature" id="temperature" placeholder="Enter the current temperature of the place" required />
+            <input style="width:35%;" type="number" step="0.1"  name="altitude" id="altitude" placeholder="Enter the altitude of the place" required />
+            <input style="width:35%; margin-top:2%;" type="number" step="0.1" name="avg" id="avg" placeholder="Enter average rainfall in last 3 months" required />    	
+
+            <button style=" background-color:#C00C0C;width:30%;margin-top:10px;margin-left:35%;" type="submit" class="btn btn-primary btn-block btn-large">Let's Predict</button>
+            
+            <h3 style="padding-top:1%">{{ prediction_text }}</h3>
+
+          </form>
+       </div>
+  </div>
+   
+</body>
+</html>

@@ -1,0 +1,12 @@
+.button {
+    color: #000;
+    text-align: center;
+    font-size:18px;
+}
+.main{
+    background-image: url(https://media.discordapp.net/attachments/806974540139200623/1125136204157943838/image_4.png?width=745&height=468);
+    height:32.23rem;
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}

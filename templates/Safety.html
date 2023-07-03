@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural Disasters</title>
+    <meta charset="UTF-8">
+
+        <!-- bootstrap css cdn -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+        <!-- css stylesheet -->
+        <link rel="stylesheet" href="static/css/style.css">
+        <link rel="stylesheet" href="static/css/safety.css">
+
+        <!-- font styles cdn -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+  <body>
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+      <div class="container-fluid" >
+          <div style ="height: 60px; text-align:center;color:#C00C0C"class="container-fluid" >
+              <div  style ="text-align: center; "class="row donate-sponsor">
+                <br/>
+                <a  style ="margin-left:30px;color:#C00C0C;text-decoration:underline;"class="button" id="donate" href="{{url_for('home')}}">Home</a>
+                <a  style ="margin-left:70px;"class="button" id="donate" href="{{url_for('earth')}}">EarthQuake Prediction</a>
+                <a  style ="margin-left:70px"class="button " id="sponsor" href="{{url_for('cyclone')}}">Hurricane Prediction</a>
+                <a  style ="margin-left:70px"class="button " id="sponsor" href="{{url_for('flood')}}">Flood Prediction</a>
+                <a  style ="margin-left:120px"class="button" id="sponsor" href="{{url_for('fs')}}">Safety tips</a> 
+                <a  style ="margin-left:70px"class="button" id="sponsor" href="{{url_for('contact')}}">News</a>
+              </div>
+            </div>
+    </nav>
+
+       <h2 class=" mt-3" style="font-size:50px;color: black;padding-left:8%">Safety Tips <br/><br/></h2>
+       <h3 style="padding-left:8%">What to do during a flood or flash flood</h3>
+        <p style="padding-left:8%">
+          <ul style="padding-left:10%">
+            <li> Move immediately to higher ground or stay on high ground.</li>
+            <li> Continue to check the media for emergency information.</li>
+            <li> Follow instructions from public safety officials. If advised to evacuate, do so immediately.</li>
+            <li> If you must evacuate your home, take only essential items and bring your pets if safe to do so.</li>
+            <li> If you must evacuate or are traveling during flooding, remember:
+            <li> Do not walk through flowing water. Most drownings occur during flash floods. Six inches of swiftly moving water can knock you off of your feet.</li>
+            <li> Remember the phrase “Turn Around, Don’t Drown!” Don’t drive through flooded roads. Cars can be swept away in only two feet of moving water. If your vehicle is trapped in rapidly moving water, stay in the vehicle. If the water is rising inside the vehicle, seek refuge on the roof.</li>
+            <li> Do not drive around road barriers. Roads and bridges may be washed out or structurally unsound.</li>
+            <li> If told to shelter in place, listen to local television or radio for updates. Conditions may change quickly, so be prepared to evacuate to a shelter or a neighbor’s home if necessary.</li>
+          </ul>
+        </p>
+	   <br/>
+
+	   <h3 style="padding-left:8%">What to do during a earthquake</h3>
+	   <p style="padding-left:8%">
+		  <ul style="padding-left:10%">
+        <li> If you are in a car, pull over and stop. Set your parking brake.</li>
+        <li> If you are in bed, turn face down and cover your head and neck with a pillow.</li>
+        <li> If you are outdoors, stay outdoors away from buildings.</li>
+        <li> If you are inside, stay and do not run outside and avoid doorways.</li>
+        <li> Expect aftershocks to follow the main shock of an earthquake. Be ready to Drop, Cover, and Hold On if you feel an aftershock.</li>
+        <li> If you are in a damaged building, go outside and quickly move away from the building. Do not enter damaged buildings.</li>
+        <li> If you are trapped, send a text or bang on a pipe or wall. Cover your mouth with your shirt for protection and instead of shouting, use a whistle.</li>
+        <li> If you are in an area that may experience tsunamis, go inland or to higher ground immediately after the shaking stops. Avoid contact with floodwaters as they can contain chemicals, sewage, and debris.</li>
+        <li> Be careful when cleaning up. Wear protective clothing, including a long-sleeved shirt, long pants, work gloves and sturdy thick-soled shoes. </li>
+      </ul>
+	   </p>
+	   <br/>
+
+	   <h3 style="padding-left:8%">What to do during a hurricane</h3>
+	   <p style="padding-left:8%">
+		  <ul style="padding-left:10%">
+        <li> Avoid driving or going outdoors during a storm. Flooding and damaging winds can make traveling dangerous. </li>
+        <li> Do not walk through flowing water. Six inches of swiftly moving water can knock you off of your feet.</li>
+        <li> Remember the phrase “Turn Around, Don’t Drown!” Don’t drive through flooded roads. Cars can be swept away in just two feet of moving water.</li>
+        <li> Stay out of damaged buildings and away from affected areas and or roads until authorities deem them safe.</li>
+        <li> Never touch electrical equipment while you are wet or standing in water. Consider hiring a qualified electrician to assess damage to electrical systems.</li>
+        <li> If you are in a damaged building, go outside and quickly move away from the building. Do not enter damaged buildings.</li>
+        <li> If you believe there is a gas leak, go outdoors immediately, and do not turn electrical switches or appliances on or off. If you turned off your gas, a licensed professional is required to turn it back on.</li>
+      </ul>
+	   </p>
+       
+	   <h2 class="alert">Stay Alert! Stay Safe!</h2>
+          
+  </body>
+</html>
