@@ -1,12 +1,13 @@
 ![Logo](https://cdn.discordapp.com/attachments/806974540139200623/1125457812173094912/image-removebg-preview1.png)
 <br/>
-EnvWarn is a one-stop solution to all your climate action needs which predicts earthquakes, and flood events, and provides news summary, fundraising, and upcoming events alerts on natural disasters.
+EnvWarn is a one-stop solution which predicts earthquakes, and flood events, and provides news summary, fundraising, and upcoming events alerts on natural disasters.
 
 ## Table of Contents
 * [Background](#background)
 * [Technologies](#technologies-used)
 * [Glimpse](#glimpse)
 * [Features](#features)
+* [Workflow](#workflow)
 * [Flood Prediction Model](#the-flood-prediction-model)
 * [Earthquake Prediction Model](#the-earthquake-prediction-model)
 * [Hurricane Prediction Model](#the-hurricane-prediction-model)
@@ -84,6 +85,11 @@ With the implementation of principles of machine learning and deep learning, to 
 - Providing Latest News about Natural Calamities
 - Educating Users about safety during these disasters
 
+## Workflow
+Here is a workflow diagram:
+<br/>
+
+![Workflow](https://media.discordapp.net/attachments/806974540139200623/1125518515265359944/Blank_diagram_31.png?width=890&height=468)
 ## The Flood Prediction Model
 **Dataset**
 During August 2018, severe floods affected the south Indian state Kerala, due to unusually high rainfall during the monsoon season. It was the worst flood in Kerala in nearly a century. Over 483 people died, and 140 are missing. About a million people were evacuated. All 14 districts of the state were placed on red alert.
@@ -147,12 +153,12 @@ After comparing all of them, the accuracies were as follows:
 
 ![Comparison](https://media.discordapp.net/attachments/806974540139200623/1125509811895795722/image.png)
 
-## The Backend
+## Backend
 The backend of this project was created using Flask, a Python web framework. After setting up a virtual environment, Flask was installed, and the project structure was organized with directories for application code, static files, and templates.
 <br/>
 
 ![Directory Structure](https://media.discordapp.net/attachments/806974540139200623/1125490635579867146/image.png)
-## The Frontend
+## Frontend
 The frontend of this project was built with HTML(Hypertext Markup Language) and CSS(Cascading Style Sheets).
 ## Challenges I ran into
 The biggest challenge for me was finding appropriate datasets.I had to struggle for hours to find datasets and then analyse them. I was not able to find real time data for any of these,  Second challenge I faced was, integrating templates with flask, had to debug and google alot.
