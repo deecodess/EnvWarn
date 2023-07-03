@@ -89,7 +89,7 @@ With the implementation of principles of machine learning and deep learning, to 
 Here is a workflow diagram:
 <br/>
 
-![Workflow](https://media.discordapp.net/attachments/806974540139200623/1125518515265359944/Blank_diagram_31.png?width=890&height=468)
+![Workflow](https://cdn.discordapp.com/attachments/806974540139200623/1125519520761655436/Blank_diagram_32.png)
 ## The Flood Prediction Model
 **Dataset**
 During August 2018, severe floods affected the south Indian state Kerala, due to unusually high rainfall during the monsoon season. It was the worst flood in Kerala in nearly a century. Over 483 people died, and 140 are missing. About a million people were evacuated. All 14 districts of the state were placed on red alert.
