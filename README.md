@@ -1,4 +1,4 @@
-![Logo](https://cdn.discordapp.com/attachments/806974540139200623/1125457812173094912/image-removebg-preview1.png)
+![Logo](https://media.discordapp.net/attachments/806974540139200623/1125457812173094912/image-removebg-preview1.png?ex=66268b44&is=66141644&hm=307d4591fe004194b52536b8dc1c87b1191d0f4d54d047c366bacf34a2ba3f1e&=&format=webp&quality=lossless)
 <br/>
 EnvWarn is a one-stop solution which predicts earthquakes, and flood events, and provides news summary, fundraising, and upcoming events alerts on natural disasters.
 
